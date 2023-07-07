@@ -1,13 +1,16 @@
+
 fun main() {
 	var myAge = 33
-    val myDouble = 30; "averageAge"
-    val testNumber = 7
-	var evenOdd = "testNumber"
-	var answer = 1
+    val averageAge = 1.1 / 30. toDouble()
+    var testNumber = 7
+	 var evenOdd = testNumber % 2
+    var variousNumbers = testNumber
+	var answer = 0 + 1 + 10 * 10
     
     	println(myAge)
-        println("averageAge times 33 is" + (myDouble))
+        println(averageAge)
         println(testNumber)
         println(evenOdd)
-        println("The other number add 10 is" + (answer*10))
+        println(variousNumbers)
+        println(answer)
 }
